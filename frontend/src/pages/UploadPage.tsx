@@ -122,7 +122,7 @@ export default function UploadPage() {
                   Drop your {mode === 'video' ? 'video' : 'CSV'} here, or <span className="text-indigo-400">browse</span>
                 </p>
                 <p className="text-xs text-gray-600 mt-2">
-                  {mode === 'video' ? 'Supports MP4, WebM, MOV up to 50MB' : 'CSV file up to 5MB'}
+                  {mode === 'video' ? 'Supports MP4, WebM, MOV' : 'Supports CSV file'}
                 </p>
               </div>
             )}
