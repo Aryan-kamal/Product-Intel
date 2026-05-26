@@ -197,6 +197,18 @@ body {
 [data-theme="light"] .ring-blue-500\/20 { --tw-ring-color: #bfdbfe; }
 
 /* ========================================
+   DARK THEME FORM ELEMENTS
+   ======================================== */
+[data-theme="dark"] input,
+[data-theme="dark"] select {
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] input::placeholder {
+  color: #64748b;
+}
+
+/* ========================================
    LIGHT THEME FORM ELEMENTS
    ======================================== */
 [data-theme="light"] input,
