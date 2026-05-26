@@ -1,0 +1,137 @@
+sku_id,product_name,platform,competitor_url,competitor_price,currency,last_checked_at
+SHOE001,Nike Blue Running Shoes,Amazon,https://amazon.in/nike-blue-running,3799,INR,2026-05-10
+SHOE001,Nike Blue Running Shoes,Myntra,https://myntra.com/nike-blue,3899,INR,2026-05-10
+SHOE001,Nike Blue Running Shoes,Ajio,https://ajio.com/nike-running,3849,INR,2026-05-10
+SHOE001,Nike Blue Running Shoes,Amazon,https://amazon.in/nike-blue-running,3699,INR,2026-05-16
+SHOE001,Nike Blue Running Shoes,Myntra,https://myntra.com/nike-blue,3799,INR,2026-05-16
+SHOE001,Nike Blue Running Shoes,Ajio,https://ajio.com/nike-running,3749,INR,2026-05-16
+SHOE001,Nike Blue Running Shoes,Amazon,https://amazon.in/nike-blue-running,3499,INR,2026-05-22
+SHOE001,Nike Blue Running Shoes,Myntra,https://myntra.com/nike-blue,3799,INR,2026-05-22
+SHOE001,Nike Blue Running Shoes,Ajio,https://ajio.com/nike-running,3699,INR,2026-05-22
+SHOE002,Adidas Ultraboost Men,Amazon,https://amazon.in/adidas-ultraboost,8799,INR,2026-05-10
+SHOE002,Adidas Ultraboost Men,Myntra,https://myntra.com/adidas-ultra,9499,INR,2026-05-10
+SHOE002,Adidas Ultraboost Men,Amazon,https://amazon.in/adidas-ultraboost,8599,INR,2026-05-16
+SHOE002,Adidas Ultraboost Men,Myntra,https://myntra.com/adidas-ultra,9399,INR,2026-05-16
+SHOE002,Adidas Ultraboost Men,Amazon,https://amazon.in/adidas-ultraboost,8499,INR,2026-05-22
+SHOE002,Adidas Ultraboost Men,Myntra,https://myntra.com/adidas-ultra,9299,INR,2026-05-22
+SHOE004,Puma RS-X Reinvention,Amazon,https://amazon.in/puma-rsx,4999,INR,2026-05-12
+SHOE004,Puma RS-X Reinvention,Myntra,https://myntra.com/puma-rsx,5299,INR,2026-05-12
+SHOE004,Puma RS-X Reinvention,Ajio,https://ajio.com/puma-rsx,5199,INR,2026-05-12
+SHOE004,Puma RS-X Reinvention,Amazon,https://amazon.in/puma-rsx,4799,INR,2026-05-20
+SHOE004,Puma RS-X Reinvention,Myntra,https://myntra.com/puma-rsx,5099,INR,2026-05-20
+SHOE004,Puma RS-X Reinvention,Ajio,https://ajio.com/puma-rsx,4899,INR,2026-05-20
+SHOE005,Reebok Classic Leather,Amazon,https://amazon.in/reebok-classic,3899,INR,2026-05-14
+SHOE005,Reebok Classic Leather,Myntra,https://myntra.com/reebok-classic,4099,INR,2026-05-14
+SHOE005,Reebok Classic Leather,Amazon,https://amazon.in/reebok-classic,3799,INR,2026-05-22
+SHOE005,Reebok Classic Leather,Myntra,https://myntra.com/reebok-classic,4199,INR,2026-05-22
+SHOE007,New Balance 574,Amazon,https://amazon.in/newbalance-574,6299,INR,2026-05-15
+SHOE007,New Balance 574,Myntra,https://myntra.com/nb-574,6599,INR,2026-05-15
+SHOE007,New Balance 574,Amazon,https://amazon.in/newbalance-574,6499,INR,2026-05-22
+SHOE007,New Balance 574,Myntra,https://myntra.com/nb-574,6799,INR,2026-05-22
+DRESS001,Red Dress,Ajio,https://ajio.com/red-dress,1699,INR,2026-05-10
+DRESS001,Red Dress,Myntra,https://myntra.com/red-dress,1749,INR,2026-05-10
+DRESS001,Red Dress,Nykaa Fashion,https://nykaafashion.com/red-dress,1899,INR,2026-05-10
+DRESS001,Red Dress,Ajio,https://ajio.com/red-dress,1599,INR,2026-05-18
+DRESS001,Red Dress,Myntra,https://myntra.com/red-dress,1699,INR,2026-05-18
+DRESS001,Red Dress,Nykaa Fashion,https://nykaafashion.com/red-dress,1849,INR,2026-05-18
+DRESS001,Red Dress,Ajio,https://ajio.com/red-dress,1549,INR,2026-05-24
+DRESS001,Red Dress,Myntra,https://myntra.com/red-dress,1649,INR,2026-05-24
+DRESS001,Red Dress,Nykaa Fashion,https://nykaafashion.com/red-dress,1799,INR,2026-05-24
+DRESS002,Floral Maxi Dress,Myntra,https://myntra.com/floral-maxi,2099,INR,2026-05-12
+DRESS002,Floral Maxi Dress,Ajio,https://ajio.com/floral-maxi,2199,INR,2026-05-12
+DRESS002,Floral Maxi Dress,Nykaa Fashion,https://nykaafashion.com/floral-maxi,2349,INR,2026-05-12
+DRESS002,Floral Maxi Dress,Myntra,https://myntra.com/floral-maxi,1999,INR,2026-05-22
+DRESS002,Floral Maxi Dress,Ajio,https://ajio.com/floral-maxi,2149,INR,2026-05-22
+DRESS004,Black Bodycon Dress,Myntra,https://myntra.com/bodycon-dress,1399,INR,2026-05-14
+DRESS004,Black Bodycon Dress,Ajio,https://ajio.com/bodycon-dress,1449,INR,2026-05-14
+DRESS004,Black Bodycon Dress,Myntra,https://myntra.com/bodycon-dress,1299,INR,2026-05-22
+DRESS004,Black Bodycon Dress,Ajio,https://ajio.com/bodycon-dress,1349,INR,2026-05-22
+WATCH001,Titan Analog Watch,Amazon,https://amazon.in/titan-watch,2399,INR,2026-05-08
+WATCH001,Titan Analog Watch,Tata Cliq,https://tatacliq.com/titan-watch,2449,INR,2026-05-08
+WATCH001,Titan Analog Watch,Amazon,https://amazon.in/titan-watch,2349,INR,2026-05-16
+WATCH001,Titan Analog Watch,Tata Cliq,https://tatacliq.com/titan-watch,2399,INR,2026-05-16
+WATCH001,Titan Analog Watch,Amazon,https://amazon.in/titan-watch,2299,INR,2026-05-22
+WATCH001,Titan Analog Watch,Tata Cliq,https://tatacliq.com/titan-watch,2399,INR,2026-05-22
+WATCH002,Fossil Gen 6 Smartwatch,Amazon,https://amazon.in/fossil-gen6,13999,INR,2026-05-10
+WATCH002,Fossil Gen 6 Smartwatch,Tata Cliq,https://tatacliq.com/fossil-gen6,14499,INR,2026-05-10
+WATCH002,Fossil Gen 6 Smartwatch,Amazon,https://amazon.in/fossil-gen6,13499,INR,2026-05-20
+WATCH002,Fossil Gen 6 Smartwatch,Tata Cliq,https://tatacliq.com/fossil-gen6,14299,INR,2026-05-20
+WATCH003,Casio G-Shock,Amazon,https://amazon.in/casio-gshock,6499,INR,2026-05-12
+WATCH003,Casio G-Shock,Tata Cliq,https://tatacliq.com/casio-gshock,6799,INR,2026-05-12
+WATCH003,Casio G-Shock,Amazon,https://amazon.in/casio-gshock,6299,INR,2026-05-22
+WATCH003,Casio G-Shock,Tata Cliq,https://tatacliq.com/casio-gshock,6699,INR,2026-05-22
+WATCH004,Noise ColorFit Pro 4,Amazon,https://amazon.in/noise-colorfit,2199,INR,2026-05-15
+WATCH004,Noise ColorFit Pro 4,Meesho,https://meesho.com/noise-colorfit,2349,INR,2026-05-15
+WATCH004,Noise ColorFit Pro 4,Amazon,https://amazon.in/noise-colorfit,1999,INR,2026-05-22
+WATCH004,Noise ColorFit Pro 4,Meesho,https://meesho.com/noise-colorfit,2199,INR,2026-05-22
+SHIRT001,Allen Solly Formal Shirt,Amazon,https://amazon.in/allen-solly,1249,INR,2026-05-10
+SHIRT001,Allen Solly Formal Shirt,Myntra,https://myntra.com/allen-solly,1279,INR,2026-05-10
+SHIRT001,Allen Solly Formal Shirt,Amazon,https://amazon.in/allen-solly,1199,INR,2026-05-18
+SHIRT001,Allen Solly Formal Shirt,Myntra,https://myntra.com/allen-solly,1249,INR,2026-05-18
+SHIRT001,Allen Solly Formal Shirt,Amazon,https://amazon.in/allen-solly,1149,INR,2026-05-24
+SHIRT001,Allen Solly Formal Shirt,Myntra,https://myntra.com/allen-solly,1199,INR,2026-05-24
+SHIRT002,Levi's Denim Shirt,Amazon,https://amazon.in/levis-denim,2599,INR,2026-05-12
+SHIRT002,Levi's Denim Shirt,Myntra,https://myntra.com/levis-denim,2699,INR,2026-05-12
+SHIRT002,Levi's Denim Shirt,Ajio,https://ajio.com/levis-denim,2649,INR,2026-05-12
+SHIRT002,Levi's Denim Shirt,Amazon,https://amazon.in/levis-denim,2499,INR,2026-05-22
+SHIRT002,Levi's Denim Shirt,Myntra,https://myntra.com/levis-denim,2599,INR,2026-05-22
+SHIRT003,Van Heusen Polo T-Shirt,Amazon,https://amazon.in/vanheusen-polo,699,INR,2026-05-14
+SHIRT003,Van Heusen Polo T-Shirt,Myntra,https://myntra.com/vanheusen-polo,749,INR,2026-05-14
+SHIRT003,Van Heusen Polo T-Shirt,Amazon,https://amazon.in/vanheusen-polo,649,INR,2026-05-22
+SHIRT003,Van Heusen Polo T-Shirt,Myntra,https://myntra.com/vanheusen-polo,729,INR,2026-05-22
+SHIRT005,U.S. Polo Assn Casual Shirt,Amazon,https://amazon.in/uspolo-casual,1099,INR,2026-05-16
+SHIRT005,U.S. Polo Assn Casual Shirt,Myntra,https://myntra.com/uspolo-casual,1149,INR,2026-05-16
+ELEC001,Samsung Galaxy Buds,Amazon,https://amazon.in/galaxy-buds,4699,INR,2026-05-08
+ELEC001,Samsung Galaxy Buds,Meesho,https://meesho.com/galaxy-buds,4899,INR,2026-05-08
+ELEC001,Samsung Galaxy Buds,Amazon,https://amazon.in/galaxy-buds,4599,INR,2026-05-16
+ELEC001,Samsung Galaxy Buds,Meesho,https://meesho.com/galaxy-buds,4849,INR,2026-05-16
+ELEC001,Samsung Galaxy Buds,Amazon,https://amazon.in/galaxy-buds,4499,INR,2026-05-24
+ELEC001,Samsung Galaxy Buds,Meesho,https://meesho.com/galaxy-buds,4799,INR,2026-05-24
+ELEC002,boAt Rockerz 450,Amazon,https://amazon.in/boat-rockerz,849,INR,2026-05-12
+ELEC002,boAt Rockerz 450,Meesho,https://meesho.com/boat-rockerz,899,INR,2026-05-12
+ELEC002,boAt Rockerz 450,Amazon,https://amazon.in/boat-rockerz,799,INR,2026-05-22
+ELEC002,boAt Rockerz 450,Meesho,https://meesho.com/boat-rockerz,879,INR,2026-05-22
+ELEC003,JBL Flip 6 Bluetooth Speaker,Amazon,https://amazon.in/jbl-flip6,8999,INR,2026-05-10
+ELEC003,JBL Flip 6 Bluetooth Speaker,Tata Cliq,https://tatacliq.com/jbl-flip6,9299,INR,2026-05-10
+ELEC003,JBL Flip 6 Bluetooth Speaker,Amazon,https://amazon.in/jbl-flip6,8799,INR,2026-05-18
+ELEC003,JBL Flip 6 Bluetooth Speaker,Tata Cliq,https://tatacliq.com/jbl-flip6,9099,INR,2026-05-18
+ELEC003,JBL Flip 6 Bluetooth Speaker,Amazon,https://amazon.in/jbl-flip6,8499,INR,2026-05-24
+ELEC003,JBL Flip 6 Bluetooth Speaker,Tata Cliq,https://tatacliq.com/jbl-flip6,8999,INR,2026-05-24
+ELEC005,Sony WH-1000XM5,Amazon,https://amazon.in/sony-xm5,21990,INR,2026-05-10
+ELEC005,Sony WH-1000XM5,Tata Cliq,https://tatacliq.com/sony-xm5,22490,INR,2026-05-10
+ELEC005,Sony WH-1000XM5,Amazon,https://amazon.in/sony-xm5,21490,INR,2026-05-20
+ELEC005,Sony WH-1000XM5,Tata Cliq,https://tatacliq.com/sony-xm5,22290,INR,2026-05-20
+ELEC006,Realme Buds Air 5 Pro,Amazon,https://amazon.in/realme-buds5pro,3199,INR,2026-05-14
+ELEC006,Realme Buds Air 5 Pro,Meesho,https://meesho.com/realme-buds5pro,3349,INR,2026-05-14
+ELEC006,Realme Buds Air 5 Pro,Amazon,https://amazon.in/realme-buds5pro,2999,INR,2026-05-22
+ELEC006,Realme Buds Air 5 Pro,Meesho,https://meesho.com/realme-buds5pro,3249,INR,2026-05-22
+BAG002,Wildcraft Hiking Backpack 45L,Amazon,https://amazon.in/wildcraft-45l,2699,INR,2026-05-12
+BAG002,Wildcraft Hiking Backpack 45L,Myntra,https://myntra.com/wildcraft-45l,2899,INR,2026-05-12
+BAG002,Wildcraft Hiking Backpack 45L,Amazon,https://amazon.in/wildcraft-45l,2599,INR,2026-05-22
+BAG003,American Tourister Laptop Bag,Amazon,https://amazon.in/at-laptop-bag,1599,INR,2026-05-14
+BAG003,American Tourister Laptop Bag,Myntra,https://myntra.com/at-laptop-bag,1699,INR,2026-05-14
+BAG003,American Tourister Laptop Bag,Amazon,https://amazon.in/at-laptop-bag,1549,INR,2026-05-22
+BAG003,American Tourister Laptop Bag,Myntra,https://myntra.com/at-laptop-bag,1649,INR,2026-05-22
+BEAUTY001,Lakme Absolute Skin Dew Foundation,Nykaa,https://nykaa.com/lakme-foundation,599,INR,2026-05-12
+BEAUTY001,Lakme Absolute Skin Dew Foundation,Amazon,https://amazon.in/lakme-foundation,619,INR,2026-05-12
+BEAUTY001,Lakme Absolute Skin Dew Foundation,Nykaa,https://nykaa.com/lakme-foundation,579,INR,2026-05-22
+BEAUTY001,Lakme Absolute Skin Dew Foundation,Amazon,https://amazon.in/lakme-foundation,609,INR,2026-05-22
+BEAUTY002,Maybelline Fit Me Concealer,Nykaa,https://nykaa.com/maybelline-concealer,349,INR,2026-05-14
+BEAUTY002,Maybelline Fit Me Concealer,Amazon,https://amazon.in/maybelline-concealer,369,INR,2026-05-14
+BEAUTY002,Maybelline Fit Me Concealer,Nykaa,https://nykaa.com/maybelline-concealer,329,INR,2026-05-22
+BEAUTY002,Maybelline Fit Me Concealer,Amazon,https://amazon.in/maybelline-concealer,359,INR,2026-05-22
+BEAUTY003,Forest Essentials Night Cream,Nykaa,https://nykaa.com/forest-essentials,1799,INR,2026-05-16
+BEAUTY003,Forest Essentials Night Cream,Amazon,https://amazon.in/forest-essentials,1849,INR,2026-05-16
+HOME001,Prestige Induction Cooktop,Amazon,https://amazon.in/prestige-induction,1999,INR,2026-05-10
+HOME001,Prestige Induction Cooktop,Tata Cliq,https://tatacliq.com/prestige-induction,2099,INR,2026-05-10
+HOME001,Prestige Induction Cooktop,Amazon,https://amazon.in/prestige-induction,1899,INR,2026-05-20
+HOME001,Prestige Induction Cooktop,Tata Cliq,https://tatacliq.com/prestige-induction,1999,INR,2026-05-20
+HOME002,Milton Thermosteel Flask 1L,Amazon,https://amazon.in/milton-flask,599,INR,2026-05-14
+HOME002,Milton Thermosteel Flask 1L,Meesho,https://meesho.com/milton-flask,649,INR,2026-05-14
+HOME002,Milton Thermosteel Flask 1L,Amazon,https://amazon.in/milton-flask,579,INR,2026-05-22
+HOME004,Philips Air Fryer HD9200,Amazon,https://amazon.in/philips-airfryer,6499,INR,2026-05-10
+HOME004,Philips Air Fryer HD9200,Tata Cliq,https://tatacliq.com/philips-airfryer,6799,INR,2026-05-10
+HOME004,Philips Air Fryer HD9200,Amazon,https://amazon.in/philips-airfryer,6299,INR,2026-05-20
+HOME004,Philips Air Fryer HD9200,Tata Cliq,https://tatacliq.com/philips-airfryer,6599,INR,2026-05-20
+HOME005,Borosil Glass Lunch Box Set,Amazon,https://amazon.in/borosil-lunchbox,799,INR,2026-05-16
+HOME005,Borosil Glass Lunch Box Set,Meesho,https://meesho.com/borosil-lunchbox,849,INR,2026-05-16

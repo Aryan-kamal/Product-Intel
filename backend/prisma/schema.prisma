@@ -1,0 +1,108 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum JobType {
+  VIDEO
+  CSV
+}
+
+enum JobStatus {
+  PENDING
+  RUNNING
+  COMPLETED
+  FAILED
+  PARTIALLY_COMPLETED
+}
+
+enum Severity {
+  HIGH
+  MEDIUM
+  LOW
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model Job {
+  id           String    @id @default(uuid())
+  type         JobType
+  status       JobStatus @default(PENDING)
+  progress     Int       @default(0)
+  enhanceTitle Boolean   @default(false)
+  fileName     String?
+  startedAt    DateTime?
+  completedAt  DateTime?
+  errorMessage String?
+  createdAt    DateTime  @default(now())
+  products     Product[]
+}
+
+model Product {
+  id              String           @id @default(uuid())
+  skuId           String           @unique
+  jobId           String?
+  job             Job?             @relation(fields: [jobId], references: [id])
+  productTitle    String?
+  description     String?
+  brand           String?
+  category        String?
+  price           Float?
+  mrp             Float?
+  imageUrl        String?
+  productUrl      String?
+  availability    String?
+  color           String?
+  size            String?
+  material        String?
+  enhancedTitle   String?
+  qualityScore    Int              @default(100)
+  createdAt       DateTime         @default(now())
+  issues          ProductIssue[]
+  competitorPrices CompetitorPrice[]
+  alerts          Alert[]
+}
+
+model ProductIssue {
+  id           String   @id @default(uuid())
+  skuId        String
+  product      Product  @relation(fields: [skuId], references: [skuId], onDelete: Cascade)
+  issueType    String
+  severity     Severity
+  message      String
+  suggestedFix String?
+  createdAt    DateTime @default(now())
+}
+
+model CompetitorPrice {
+  id              String   @id @default(uuid())
+  skuId           String
+  product         Product  @relation(fields: [skuId], references: [skuId], onDelete: Cascade)
+  productName     String?
+  platform        String
+  competitorUrl   String?
+  competitorPrice Float
+  currency        String   @default("INR")
+  lastCheckedAt   DateTime @default(now())
+}
+
+model Alert {
+  id        String   @id @default(uuid())
+  skuId     String?
+  product   Product? @relation(fields: [skuId], references: [skuId], onDelete: Cascade)
+  type      String
+  severity  Severity
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
