@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Upload, FileVideo, FileSpreadsheet, Loader2, CheckCircle2, Sparkles, ArrowRight, X } from 'lucide-react';
+import { FileVideo, FileSpreadsheet, Loader2, CheckCircle2, Sparkles, ArrowRight, X } from 'lucide-react';
 import api from '../lib/api';
 
 export default function UploadPage() {

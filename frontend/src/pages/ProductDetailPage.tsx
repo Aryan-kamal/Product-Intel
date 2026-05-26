@@ -300,7 +300,7 @@ export default function ProductDetailPage() {
                       <Tooltip
                         contentStyle={{ backgroundColor: '#1f2937', border: '1px solid #374151', borderRadius: '12px', fontSize: '12px' }}
                         labelStyle={{ color: '#9ca3af' }}
-                        formatter={(value: number) => [`₹${value}`, undefined]}
+                        formatter={(value) => [`₹${Number(value ?? 0)}`, undefined]}
                       />
                       <Legend wrapperStyle={{ fontSize: '12px' }} />
                       <Line type="monotone" dataKey="ourPrice" name="Our Price" stroke="#6366f1" strokeWidth={2} dot={{ r: 4, fill: '#6366f1' }} />
