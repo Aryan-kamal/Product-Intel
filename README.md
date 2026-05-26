@@ -12,7 +12,7 @@ A web app for e-commerce sellers to monitor product listing quality, track compe
 | **Backend API (Render)** | https://product-intel.onrender.com |
 | **Swagger API Docs** | `{https://product-intel.onrender.com}/api-docs` |
 | **GitHub Repo** | https://github.com/Aryan-kamal/Product-Intel |
-| **Demo video** | _Add your Google Drive / Loom link here_ |
+| **Demo video** | https://drive.google.com/file/d/1vfp3FveQzO6yIVj0MQrQUTk6aiTCbkBz/view?usp=sharing |
 
 ---
 
