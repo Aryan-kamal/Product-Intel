@@ -22,6 +22,7 @@ router.post('/competitor-prices/upload', csvUpload.single('csv'), async (req: Re
 
     const prices = await parseCompetitorCsv(req.file.path);
 
+    let imported = 0;
     for (const price of prices) {
       const product = await prisma.product.findUnique({ where: { skuId: price.skuId } });
       if (product) {
@@ -36,16 +37,17 @@ router.post('/competitor-prices/upload', csvUpload.single('csv'), async (req: Re
             lastCheckedAt: price.lastCheckedAt ? new Date(price.lastCheckedAt) : new Date(),
           },
         });
+        imported++;
       }
     }
 
-    fs.unlinkSync(req.file.path);
+    try { fs.unlinkSync(req.file.path); } catch { /* already deleted by parser */ }
 
     await generatePriceAlerts();
 
     return res.json({
       success: true,
-      data: { message: `Imported ${prices.length} competitor prices`, count: prices.length },
+      data: { message: `Imported ${imported} of ${prices.length} competitor prices`, count: imported },
     });
   } catch (error) {
     next(error);
