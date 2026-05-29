@@ -57,9 +57,17 @@ export default function AuthPage() {
           <h2 className="text-xl font-bold text-gray-100 mb-1">
             {isLogin ? 'Welcome back' : 'Create account'}
           </h2>
-          <p className="text-sm text-gray-400 mb-6">
+          <p className="text-sm text-gray-400 mb-4">
             {isLogin ? 'Sign in to continue' : 'Get started with your dashboard'}
           </p>
+
+          {isLogin && (
+            <div className="mb-4 p-3 bg-indigo-500/10 border border-indigo-500/20 rounded-xl">
+              <p className="text-[10px] font-semibold text-gray-500 uppercase mb-1">Demo Credentials</p>
+              <p className="text-sm text-gray-300"><span className="text-gray-500">Email:</span> aryan@gmail.com</p>
+              <p className="text-sm text-gray-300"><span className="text-gray-500">Password:</span> kamal@123</p>
+            </div>
+          )}
 
           {error && (
             <div className="mb-4 p-3 bg-red-500/10 border border-red-500/20 rounded-xl text-sm text-red-300 animate-slide-up">
